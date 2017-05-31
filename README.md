@@ -3,9 +3,7 @@
 V-WAD is a fork of Piotr Lizończyk's WAD. This fork rests largely on the shoulders of the original WAD detection system 
 but provides a Graphical User Interface to launch scans and inspect results more intuitively.
 
-<!---
-![alt tag](https://github.com/errantbot/kerosene/upload/master/data/icons/flame.ico)
--->
+![screenshot](https://github.com/errantbot/V-WAD/blob/master/wad/data/screenshot.JPG)
 
 V-WAD lets you analyze given URL(s) and detect technologies used by web application behind that URL, 
 from the OS and web server level, to the programming platform and frameworks, as well as server- and client-side
