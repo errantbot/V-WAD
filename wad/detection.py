@@ -298,3 +298,14 @@ class Detector(object):
         :return: list of findings
         """
         return []
+
+if __name__ == '__main__':
+    # import pprint
+    d = Detector()
+    url = 'http://www.ilgiornale.it/'
+    results = d.detect(url=url, timeout=5)
+    for result in results[url]:
+        tech_type = result.get('type')
+        software = result.get('app')
+        version = result.get('ver')
+        print(tech_type, software, version)
