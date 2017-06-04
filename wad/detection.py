@@ -51,7 +51,7 @@ class Detector(object):
             return {}
 
         if six.PY3:
-            content = content.decode()
+            content = content.decode(encoding="latin-1")
 
         findings += self.check_url(url)  # 'url'
         if page:
