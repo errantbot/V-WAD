@@ -1,5 +1,7 @@
 # V-WAD (Visual Web Application Detector)
 
+[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
+
 V-WAD is a fork of Piotr Lizończyk's WAD. This fork rests largely on the shoulders of the original WAD detection system 
 but provides a Graphical User Interface to launch scans and inspect results more intuitively.
 
